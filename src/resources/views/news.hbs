@@ -1,3 +1,36 @@
-{{!-- <h1 class="d-flex justify-content-center align-items-center vh-100 color-changing-text">test</h1> --}}
+{{! <h1 class="d-flex justify-content-center align-items-center vh-100 color-changing-text">test</h1> }}
 
-<h1 class="first-title d-flex justify-content-center align-items-center vh-100 color-changing-text">test</h1>
+<div class="container-fluid">
+  <h1 class="first-title d-flex justify-content-center align-items-center color-changing-text my-3">TÌNH YÊU NÀY RẤT CHI LÀ 7 MÀU =V</h1>
+</div>
+
+<div class="container-fluid mt-4">
+  <div class="row">
+    <ul class="col-sm-3 float-start">
+      <h1 class="title">
+        DANH MỤC
+      </h1>
+      <li>Mục tiêu</li>
+      <li>Khoá học</li>
+      <li>Công việc</li>
+      <li>Thực tập</li>
+    </ul>
+
+    <div class="col-sm-9">
+      <div class="row">
+        {{#each courses}}
+        <div class="col-sm-4 mb-2">
+          <div class="card">
+            <img src="{{this.image}}" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">{{this.name}}</h5>
+              <p class="card-text">{{this.description}}</p>
+              <a href="#" class="btn btn-primary float-end">Mua khoá học ngay</a>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>

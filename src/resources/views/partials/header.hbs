@@ -2,81 +2,104 @@
   <div class="header-inner">
     <div class="container-fluid px-lg-5">
       <nav class="navbar navbar-expand-lg my-navbar">
-  <a class="navbar-brand py-0" href="http://localhost:3000"><span class="logo d-flex align-items-center">
-    <img src="https://media.tenor.com/Jsk494r-zWMAAAAi/blue-archive-chibi.gif" class="" 
-    style="width:40px;">My web</span>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"><i class="fas fa-bars" style="margin:5px 0px 0px 0px;"></i></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav m-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="http://localhost:3000/news">News<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Downloads</a>
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#">Enterprice</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Pricing
+        <a class="navbar-brand py-0" href="http://localhost:3000"><span
+            class="logo d-flex align-items-center"
+          >
+            <img
+              src="https://media.tenor.com/Jsk494r-zWMAAAAi/blue-archive-chibi.gif"
+              class=""
+              style="width:40px;"
+            />My web</span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><i
+              class="fas fa-bars"
+              style="margin:5px 0px 0px 0px;"
+            ></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost:3000/news">News<span
+                  class="sr-only"
+                >(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Downloads</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Enterprice</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Pricing
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="header-btn my-2 my-sm-0" type="submit">Subscribe free</button>
+          </form>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Resources</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <button class="header-btn my-2 my-sm-0" type="submit">Subscribe free</button>
-    </form>
-  </div>
-</nav>
+      </nav>
 
     </div>
   </div>
-
 
 </header>
 
 <section class="content-banner">
 
   <div class="container">
-<div class="row d-flex justify-content-center">
-  <div class="col-md-12">
-    <div class="banner-con text-center">
-      <p class="first-title">Hvuitsme design tutorials &amp; subscribe</p>
-      <p class="banner-des">prototype,design,collaborate and design system all in mockplus</p>
-      <a href="https://github.com/hvuitsme" target="_blank" class="banner-btn">Get started for free</a>
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-12">
+        <div class="banner-con text-center">
+          <p class="first-title">Hvuitsme design tutorials &amp; subscribe</p>
+          <p class="banner-des">prototype,design,collaborate and design system
+            all in mockplus</p>
+          <a
+            href="https://github.com/hvuitsme"
+            target="_blank"
+            class="banner-btn"
+          >Get started for free</a>
+        </div>
+      </div>
     </div>
-</div>
-</div>
-</div>
+  </div>
 </section>
 
 <script type="text/javascript">
-    $(function(){
-      var navbar = $('.header-inner');
-      $(window).scroll(function(){
-        if($(window).scrollTop() <=40){
-          navbar.removeClass('navbar-scroll');
-        }else{
-          navbar.addClass('navbar-scroll');
-        }
-      });
-    });
-    </script>
+  $(function(){ var navbar = $('.header-inner'); $(window).scroll(function(){
+  if($(window).scrollTop() <=40){ navbar.removeClass('navbar-scroll'); }else{
+  navbar.addClass('navbar-scroll'); } }); });
+</script>
 
-{{!-- https://media.tenor.com/T8pE5uK3nKAAAAAi/aris-dancing-arisu-blue-archive.gif --}}
+{{! https://media.tenor.com/T8pE5uK3nKAAAAAi/aris-dancing-arisu-blue-archive.gif }}
